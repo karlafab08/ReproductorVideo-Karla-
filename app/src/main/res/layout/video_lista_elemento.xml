@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/video_miniatura"
+        android:layout_width="142dp"
+        android:layout_height="74dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/video_titulo"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
